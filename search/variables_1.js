@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['corr_5ffactor',['corr_factor',['../classKLOE_1_1interference.html#adddf85ff38ee4f94b8716ec338ecba4e',1,'KLOE::interference']]]
+  ['angle_5fvec',['angle_vec',['../classKLOE_1_1pm00.html#afca46d0023081506aca41a93ede60303',1,'KLOE::pm00']]],
+  ['azim_5fangle',['azim_angle',['../classKLOE_1_1pm00.html#a6f714a4b2b4b7e4fdcdbd3b511f7b728',1,'KLOE::pm00']]]
 ];

@@ -169,17 +169,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>lorentz_transf</b> (T
 <tr class="memitem:a787d7958f0bde00829036cad08ba0770"><td class="memItemLeft" align="right" valign="top">Int_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a787d7958f0bde00829036cad08ba0770">ArrayEquality</a> (const Int_t *table1, const Int_t *table2, const Int_t &amp;size)</td></tr>
 <tr class="memdesc:a787d7958f0bde00829036cad08ba0770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method check the equality of two tables up to the given size. Equality means, that all the elements are the same for both tables, order does not matter.  <a href="#a787d7958f0bde00829036cad08ba0770">More...</a><br /></td></tr>
 <tr class="separator:a787d7958f0bde00829036cad08ba0770"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a317804edfaa3db2c177dbc6897bdd301"><td class="memItemLeft" align="right" valign="top"><a id="a317804edfaa3db2c177dbc6897bdd301"></a>
-Int_t&#160;</td><td class="memItemRight" valign="bottom"><b>ListOfFiles</b> (const std::string &amp;mode, Int_t &amp;maxNumOfFiles, std::vector&lt; std::string &gt; &amp;fileNames)</td></tr>
+<tr class="memitem:a317804edfaa3db2c177dbc6897bdd301"><td class="memItemLeft" align="right" valign="top">Int_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a317804edfaa3db2c177dbc6897bdd301">ListOfFiles</a> (const std::string &amp;mode, Int_t &amp;maxNumOfFiles, std::vector&lt; std::string &gt; &amp;fileNames)</td></tr>
+<tr class="memdesc:a317804edfaa3db2c177dbc6897bdd301"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function to get the list of filenames described in the subfiles. Needs to be used only in special cases.  <a href="#a317804edfaa3db2c177dbc6897bdd301">More...</a><br /></td></tr>
 <tr class="separator:a317804edfaa3db2c177dbc6897bdd301"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15d55bd34a09a5fdfada11c5a906ec26"><td class="memItemLeft" align="right" valign="top"><a id="a15d55bd34a09a5fdfada11c5a906ec26"></a>
-Int_t&#160;</td><td class="memItemRight" valign="bottom"><b>neu_triangle</b> (Float_t *, Float_t *, Float_t Clu5Vec[4][5], Float_t *ip, Float_t *Phi4Mom, Float_t *Kne4Mom, Float_t *Kne4Vec, Float_t *trc)</td></tr>
-<tr class="separator:a15d55bd34a09a5fdfada11c5a906ec26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06d6cf077399648dc58e38e000423774"><td class="memItemLeft" align="right" valign="top"><a id="a06d6cf077399648dc58e38e000423774"></a>
-Int_t&#160;</td><td class="memItemRight" valign="bottom"><b>neu_triangle</b> (std::vector&lt; TLorentzVector &gt; *Clu4Vec, std::vector&lt; TLorentzVector &gt; *Clu4Mom, Float_t *ip, TLorentzVector *Phi4Mom, TLorentzVector *Kne4Mom, TLorentzVector *Kne4Vec, Float_t *trc, Float_t *, Float_t *)</td></tr>
-<tr class="separator:a06d6cf077399648dc58e38e000423774"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0daa43ce36cddeec52ac2fd174b03c09"><td class="memItemLeft" align="right" valign="top"><a id="a0daa43ce36cddeec52ac2fd174b03c09"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>chainInit</b> (TChain &amp;chain_init, Controls::DataType &amp;dataTypeOpt, UInt_t &amp;firstData, UInt_t &amp;lastData, UInt_t &amp;firstMC, UInt_t &amp;lastMC, <a class="el" href="classErrorHandling_1_1ErrorLogs.html">ErrorHandling::ErrorLogs</a> &amp;logger)</td></tr>
+<tr class="memitem:ace2773c999aca1c56ca1be15fd1360b4"><td class="memItemLeft" align="right" valign="top">Int_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#ace2773c999aca1c56ca1be15fd1360b4">neu_triangle</a> (Float_t *TrcSumFinal, Float_t *vtxSigmaFinal, Float_t Clu5Vec[4][5], Float_t *ip, Float_t *Phi4Mom, Float_t *Kne4Mom, Float_t *Kne4Vec, Float_t *trc)</td></tr>
+<tr class="memdesc:ace2773c999aca1c56ca1be15fd1360b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconstruction of neutral vertex using the triangle method.  <a href="#ace2773c999aca1c56ca1be15fd1360b4">More...</a><br /></td></tr>
+<tr class="separator:ace2773c999aca1c56ca1be15fd1360b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e154e68596531017cff09e2abdcb705"><td class="memItemLeft" align="right" valign="top">Int_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a4e154e68596531017cff09e2abdcb705">neu_triangle</a> (std::vector&lt; TLorentzVector &gt; *Clu4Mom, std::vector&lt; TLorentzVector &gt; *Clu4Vec, Float_t *ip, TLorentzVector *Phi4Mom, TLorentzVector *Kne4Mom, TLorentzVector *Kne4Vec, Float_t *trc, Float_t *TrcSumFinal, Float_t *vtxSigmaFinal)</td></tr>
+<tr class="memdesc:a4e154e68596531017cff09e2abdcb705"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function to get the list of filenames described in the subfiles. Needs to be used only in special cases.  <a href="#a4e154e68596531017cff09e2abdcb705">More...</a><br /></td></tr>
+<tr class="separator:a4e154e68596531017cff09e2abdcb705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0daa43ce36cddeec52ac2fd174b03c09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a0daa43ce36cddeec52ac2fd174b03c09">chainInit</a> (TChain &amp;chain_init, Controls::DataType &amp;dataTypeOpt, UInt_t &amp;firstData, UInt_t &amp;lastData, UInt_t &amp;firstMC, UInt_t &amp;lastMC, <a class="el" href="classErrorHandling_1_1ErrorLogs.html">ErrorHandling::ErrorLogs</a> &amp;logger)</td></tr>
 <tr class="separator:a0daa43ce36cddeec52ac2fd174b03c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a884c2f4ed05188a421c447ac06ddaa5f"><td class="memItemLeft" align="right" valign="top"><a id="a884c2f4ed05188a421c447ac06ddaa5f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>dataFlagSetter</b> (Controls::DataType &amp;dataType, bool &amp;dataFlag, int &amp;mcflag, int &amp;mctruth)</td></tr>
@@ -187,66 +186,46 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>dataFlagSetter</b> (C
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a194c4c3121158c675575b8e0e2fbb2ec"><td class="memItemLeft" align="right" valign="top"><a id="a194c4c3121158c675575b8e0e2fbb2ec"></a>
-TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><b>phi_mom</b></td></tr>
+<tr class="memitem:a194c4c3121158c675575b8e0e2fbb2ec"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a194c4c3121158c675575b8e0e2fbb2ec">phi_mom</a></td></tr>
 <tr class="separator:a194c4c3121158c675575b8e0e2fbb2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06dbd7732a49151a3103acaea9aed205"><td class="memItemLeft" align="right" valign="top"><a id="a06dbd7732a49151a3103acaea9aed205"></a>
-TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><b>phi_pos</b></td></tr>
+<tr class="memitem:a06dbd7732a49151a3103acaea9aed205"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a06dbd7732a49151a3103acaea9aed205">phi_pos</a></td></tr>
 <tr class="separator:a06dbd7732a49151a3103acaea9aed205"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae651e50f41802af9706439e2efb42ac"><td class="memItemLeft" align="right" valign="top"><a id="aae651e50f41802af9706439e2efb42ac"></a>
-TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><b>kaon_mom</b> [2]</td></tr>
+<tr class="memitem:aae651e50f41802af9706439e2efb42ac"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#aae651e50f41802af9706439e2efb42ac">kaon_mom</a> [2]</td></tr>
 <tr class="separator:aae651e50f41802af9706439e2efb42ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39798c214818a35caf147ee1c269b992"><td class="memItemLeft" align="right" valign="top"><a id="a39798c214818a35caf147ee1c269b992"></a>
-TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><b>kaon_pos</b> [2]</td></tr>
+<tr class="memitem:a39798c214818a35caf147ee1c269b992"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a39798c214818a35caf147ee1c269b992">kaon_pos</a> [2]</td></tr>
 <tr class="separator:a39798c214818a35caf147ee1c269b992"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dbe89c7cc171d7b09a80fb57260525e"><td class="memItemLeft" align="right" valign="top"><a id="a7dbe89c7cc171d7b09a80fb57260525e"></a>
-TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><b>pi_ch_mom</b> [2]</td></tr>
+<tr class="memitem:a7dbe89c7cc171d7b09a80fb57260525e"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a7dbe89c7cc171d7b09a80fb57260525e">pi_ch_mom</a> [2]</td></tr>
 <tr class="separator:a7dbe89c7cc171d7b09a80fb57260525e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9143aa66603c3d0d3e68b3475411876e"><td class="memItemLeft" align="right" valign="top"><a id="a9143aa66603c3d0d3e68b3475411876e"></a>
-TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><b>pi_ch_pos</b> [2]</td></tr>
+<tr class="memitem:a9143aa66603c3d0d3e68b3475411876e"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a9143aa66603c3d0d3e68b3475411876e">pi_ch_pos</a> [2]</td></tr>
 <tr class="separator:a9143aa66603c3d0d3e68b3475411876e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bc21a05d192b2af2f2aa8f1514ae88d"><td class="memItemLeft" align="right" valign="top"><a id="a6bc21a05d192b2af2f2aa8f1514ae88d"></a>
-TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><b>pi_ne_mom</b> [2]</td></tr>
+<tr class="memitem:a6bc21a05d192b2af2f2aa8f1514ae88d"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a6bc21a05d192b2af2f2aa8f1514ae88d">pi_ne_mom</a> [2]</td></tr>
 <tr class="separator:a6bc21a05d192b2af2f2aa8f1514ae88d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb11fa969d18992d45e0c424d8ac433d"><td class="memItemLeft" align="right" valign="top"><a id="abb11fa969d18992d45e0c424d8ac433d"></a>
-TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><b>pi_ne_pos</b> [2]</td></tr>
+<tr class="memitem:abb11fa969d18992d45e0c424d8ac433d"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#abb11fa969d18992d45e0c424d8ac433d">pi_ne_pos</a> [2]</td></tr>
 <tr class="separator:abb11fa969d18992d45e0c424d8ac433d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0071d1fabf9969728cc8d97178200115"><td class="memItemLeft" align="right" valign="top"><a id="a0071d1fabf9969728cc8d97178200115"></a>
-TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><b>photon_mom</b> [4]</td></tr>
+<tr class="memitem:a0071d1fabf9969728cc8d97178200115"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a0071d1fabf9969728cc8d97178200115">photon_mom</a> [4]</td></tr>
 <tr class="separator:a0071d1fabf9969728cc8d97178200115"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25ad258b1d5bd47c74259a33e17bcdf5"><td class="memItemLeft" align="right" valign="top"><a id="a25ad258b1d5bd47c74259a33e17bcdf5"></a>
-TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><b>photon_pos</b> [4]</td></tr>
+<tr class="memitem:a25ad258b1d5bd47c74259a33e17bcdf5"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a25ad258b1d5bd47c74259a33e17bcdf5">photon_pos</a> [4]</td></tr>
 <tr class="separator:a25ad258b1d5bd47c74259a33e17bcdf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01bec5cd7846649b457c0b4107dd74be"><td class="memItemLeft" align="right" valign="top"><a id="a01bec5cd7846649b457c0b4107dd74be"></a>
-UInt_t&#160;</td><td class="memItemRight" valign="bottom"><b>bin_number</b></td></tr>
+<tr class="memitem:a01bec5cd7846649b457c0b4107dd74be"><td class="memItemLeft" align="right" valign="top">UInt_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a01bec5cd7846649b457c0b4107dd74be">bin_number</a></td></tr>
 <tr class="separator:a01bec5cd7846649b457c0b4107dd74be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50032618533b7408c16e4626776d71b7"><td class="memItemLeft" align="right" valign="top"><a id="a50032618533b7408c16e4626776d71b7"></a>
-Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>x_min</b></td></tr>
+<tr class="memitem:a50032618533b7408c16e4626776d71b7"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a50032618533b7408c16e4626776d71b7">x_min</a></td></tr>
 <tr class="separator:a50032618533b7408c16e4626776d71b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4c234953d2065078457560aa71c17f8"><td class="memItemLeft" align="right" valign="top"><a id="ab4c234953d2065078457560aa71c17f8"></a>
-Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>x_max</b></td></tr>
+<tr class="memitem:ab4c234953d2065078457560aa71c17f8"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#ab4c234953d2065078457560aa71c17f8">x_max</a></td></tr>
 <tr class="separator:ab4c234953d2065078457560aa71c17f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57b8d4d2bcd27ba8d662adfa08be2bdb"><td class="memItemLeft" align="right" valign="top"><a id="a57b8d4d2bcd27ba8d662adfa08be2bdb"></a>
-Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>y_min</b></td></tr>
+<tr class="memitem:a57b8d4d2bcd27ba8d662adfa08be2bdb"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a57b8d4d2bcd27ba8d662adfa08be2bdb">y_min</a></td></tr>
 <tr class="separator:a57b8d4d2bcd27ba8d662adfa08be2bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a6bef5be4c8423432a306b36c47313e"><td class="memItemLeft" align="right" valign="top"><a id="a8a6bef5be4c8423432a306b36c47313e"></a>
-Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>y_max</b></td></tr>
+<tr class="memitem:a8a6bef5be4c8423432a306b36c47313e"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a8a6bef5be4c8423432a306b36c47313e">y_max</a></td></tr>
 <tr class="separator:a8a6bef5be4c8423432a306b36c47313e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1c144eec69f2970beb387ad099f40ca"><td class="memItemLeft" align="right" valign="top"><a id="af1c144eec69f2970beb387ad099f40ca"></a>
-Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>inv_mass</b></td></tr>
+<tr class="memitem:af1c144eec69f2970beb387ad099f40ca"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#af1c144eec69f2970beb387ad099f40ca">inv_mass</a></td></tr>
 <tr class="separator:af1c144eec69f2970beb387ad099f40ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19e8efde218a7e52c2474a22e321970a"><td class="memItemLeft" align="right" valign="top"><a id="a19e8efde218a7e52c2474a22e321970a"></a>
-TVector3&#160;</td><td class="memItemRight" valign="bottom"><b>boost</b></td></tr>
-<tr class="separator:a19e8efde218a7e52c2474a22e321970a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afca46d0023081506aca41a93ede60303"><td class="memItemLeft" align="right" valign="top"><a id="afca46d0023081506aca41a93ede60303"></a>
-Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>angle_vec</b></td></tr>
+<tr class="memitem:afca46d0023081506aca41a93ede60303"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#afca46d0023081506aca41a93ede60303">angle_vec</a></td></tr>
 <tr class="separator:afca46d0023081506aca41a93ede60303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0059affb42a04c6a5cfe88b0aecb087d"><td class="memItemLeft" align="right" valign="top"><a id="a0059affb42a04c6a5cfe88b0aecb087d"></a>
-Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>transv</b></td></tr>
+<tr class="memitem:a0059affb42a04c6a5cfe88b0aecb087d"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a0059affb42a04c6a5cfe88b0aecb087d">transv</a></td></tr>
 <tr class="separator:a0059affb42a04c6a5cfe88b0aecb087d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f714a4b2b4b7e4fdcdbd3b511f7b728"><td class="memItemLeft" align="right" valign="top"><a id="a6f714a4b2b4b7e4fdcdbd3b511f7b728"></a>
-Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>azim_angle</b></td></tr>
+<tr class="memitem:a6f714a4b2b4b7e4fdcdbd3b511f7b728"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a6f714a4b2b4b7e4fdcdbd3b511f7b728">azim_angle</a></td></tr>
 <tr class="separator:a6f714a4b2b4b7e4fdcdbd3b511f7b728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19e8efde218a7e52c2474a22e321970a"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a19e8efde218a7e52c2474a22e321970a">boost</a></td></tr>
+<tr class="separator:a19e8efde218a7e52c2474a22e321970a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa81b04d1d0d4f37585ce5b246d93f47d"><td class="memItemLeft" align="right" valign="top"><a id="aa81b04d1d0d4f37585ce5b246d93f47d"></a>
 std::vector&lt; TH1 * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>frac</b></td></tr>
 <tr class="separator:aa81b04d1d0d4f37585ce5b246d93f47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -361,6 +340,65 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the number, how many elements are the same. </dd></dl>
+
+</div>
+</div>
+<a id="a0daa43ce36cddeec52ac2fd174b03c09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0daa43ce36cddeec52ac2fd174b03c09">&#9670;&nbsp;</a></span>chainInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KLOE::pm00::chainInit </td>
+          <td>(</td>
+          <td class="paramtype">TChain &amp;&#160;</td>
+          <td class="paramname"><em>chain_init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Controls::DataType &amp;&#160;</td>
+          <td class="paramname"><em>dataTypeOpt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt_t &amp;&#160;</td>
+          <td class="paramname"><em>firstData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt_t &amp;&#160;</td>
+          <td class="paramname"><em>lastData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt_t &amp;&#160;</td>
+          <td class="paramname"><em>firstMC</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt_t &amp;&#160;</td>
+          <td class="paramname"><em>lastMC</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classErrorHandling_1_1ErrorLogs.html">ErrorHandling::ErrorLogs</a> &amp;&#160;</td>
+          <td class="paramname"><em>logger</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </p>
 
 </div>
 </div>
@@ -691,6 +729,236 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a317804edfaa3db2c177dbc6897bdd301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a317804edfaa3db2c177dbc6897bdd301">&#9670;&nbsp;</a></span>ListOfFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int_t KLOE::pm00::ListOfFiles </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Int_t &amp;&#160;</td>
+          <td class="paramname"><em>maxNumOfFiles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fileNames</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A function to get the list of filenames described in the subfiles. Needs to be used only in special cases. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mode</td><td>Mode of operation:<ul>
+<li>MC1: to get the list from all_phys</li>
+<li>MC2: to get the list from all_phys2</li>
+<li>MC3: to get the list from all_phys3</li>
+<li>Data: to get the list from data </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">maxNumOfFiles</td><td>number of files to fetch into the analysis </td></tr>
+    <tr><td class="paramname">fileNames</td><td>address to the vector of filenames to be used in the analysis </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The function returns:<ul>
+<li>0: no errors</li>
+<li>ErrorHandling:ErrorCodes::FILE_NOT_EXIST: input file does not exist </li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
+<a id="ace2773c999aca1c56ca1be15fd1360b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace2773c999aca1c56ca1be15fd1360b4">&#9670;&nbsp;</a></span>neu_triangle() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int_t KLOE::pm00::neu_triangle </td>
+          <td>(</td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>TrcSumFinal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>vtxSigmaFinal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t&#160;</td>
+          <td class="paramname"><em>Clu5Vec</em>[4][5], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>ip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>Phi4Mom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>Kne4Mom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>Kne4Vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>trc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reconstruction of neutral vertex using the triangle method. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">TrcSumFinal</td><td>pointer to variable to get the TrcSum after the method application <p class="formulaDsp">
+\[ TrcSumFinal = \sum^{4}_{i=1} (T_{cl,i} - \frac{d_{\gamma,i}}{c} - \frac{d_{K}}{c\beta_{K}}) \]
+</p>
+ </td></tr>
+    <tr><td class="paramname">vtxSigmaFinal</td><td>pointer to the variable to get the error of reconstructed vertex <p class="formulaDsp">
+\[ vtxSigmaFinal = \frac{\sum^{4}_{i=1} E_{cl,i} \sqrt{(X_{neu,i} - X_{neu,avg})^2 + (Y_{neu,i} - Y_{neu,avg})^2 + (Z_{neu,i} - Z_{neu,avg})^2}}{\sum^{4}_{i=1} E_{cl,i}} \]
+</p>
+ </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The function returns:<ul>
+<li>0: no errors</li>
+<li>ErrorHandling:ErrorCodes::FILE_NOT_EXIST: input file does not exist </li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
+<a id="a4e154e68596531017cff09e2abdcb705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e154e68596531017cff09e2abdcb705">&#9670;&nbsp;</a></span>neu_triangle() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int_t KLOE::pm00::neu_triangle </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; TLorentzVector &gt; *&#160;</td>
+          <td class="paramname"><em>Clu4Mom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; TLorentzVector &gt; *&#160;</td>
+          <td class="paramname"><em>Clu4Vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>ip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TLorentzVector *&#160;</td>
+          <td class="paramname"><em>Phi4Mom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TLorentzVector *&#160;</td>
+          <td class="paramname"><em>Kne4Mom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TLorentzVector *&#160;</td>
+          <td class="paramname"><em>Kne4Vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>trc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>TrcSumFinal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>vtxSigmaFinal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A function to get the list of filenames described in the subfiles. Needs to be used only in special cases. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mode</td><td>Mode of operation:<ul>
+<li>MC1: to get the list from all_phys</li>
+<li>MC2: to get the list from all_phys2</li>
+<li>MC3: to get the list from all_phys3</li>
+<li>Data: to get the list from data </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">maxNumOfFiles</td><td>number of files to fetch into the analysis </td></tr>
+    <tr><td class="paramname">fileNames</td><td>address to the vector of filenames to be used in the analysis </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The function returns:<ul>
+<li>0: no errors</li>
+<li>ErrorHandling:ErrorCodes::FILE_NOT_EXIST: input file does not exist </li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
 <a id="aac95b2567c5ac66c0d92955588b3a60a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac95b2567c5ac66c0d92955588b3a60a">&#9670;&nbsp;</a></span>signum()</h2>
 
@@ -878,6 +1146,306 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Start time of the counter. </p>
+
+</div>
+</div>
+<a id="afca46d0023081506aca41a93ede60303"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afca46d0023081506aca41a93ede60303">&#9670;&nbsp;</a></span>angle_vec</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Double_t KLOE::pm00::angle_vec</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>angle between two vectors </p>
+
+</div>
+</div>
+<a id="a6f714a4b2b4b7e4fdcdbd3b511f7b728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f714a4b2b4b7e4fdcdbd3b511f7b728">&#9670;&nbsp;</a></span>azim_angle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Double_t KLOE::pm00::azim_angle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>azimuthal angle of a vector (in x-y plane) </p>
+
+</div>
+</div>
+<a id="a01bec5cd7846649b457c0b4107dd74be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01bec5cd7846649b457c0b4107dd74be">&#9670;&nbsp;</a></span>bin_number</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UInt_t KLOE::pm00::bin_number</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>number of histogram bins </p>
+
+</div>
+</div>
+<a id="a19e8efde218a7e52c2474a22e321970a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19e8efde218a7e52c2474a22e321970a">&#9670;&nbsp;</a></span>boost</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TVector3 KLOE::pm00::boost</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>boost vector between the frames </p>
+
+</div>
+</div>
+<a id="af1c144eec69f2970beb387ad099f40ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1c144eec69f2970beb387ad099f40ca">&#9670;&nbsp;</a></span>inv_mass</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Double_t KLOE::pm00::inv_mass</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>invariant mass of a particle </p>
+
+</div>
+</div>
+<a id="aae651e50f41802af9706439e2efb42ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae651e50f41802af9706439e2efb42ac">&#9670;&nbsp;</a></span>kaon_mom</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector KLOE::pm00::kaon_mom[2]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4-momenta of both kaons </p>
+
+</div>
+</div>
+<a id="a39798c214818a35caf147ee1c269b992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39798c214818a35caf147ee1c269b992">&#9670;&nbsp;</a></span>kaon_pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector KLOE::pm00::kaon_pos[2]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4-positions of both kaons </p>
+
+</div>
+</div>
+<a id="a194c4c3121158c675575b8e0e2fbb2ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a194c4c3121158c675575b8e0e2fbb2ec">&#9670;&nbsp;</a></span>phi_mom</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector KLOE::pm00::phi_mom</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4-momentum of \( \phi \) meson </p>
+
+</div>
+</div>
+<a id="a06dbd7732a49151a3103acaea9aed205"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06dbd7732a49151a3103acaea9aed205">&#9670;&nbsp;</a></span>phi_pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector KLOE::pm00::phi_pos</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4-position of \( \phi \) meson </p>
+
+</div>
+</div>
+<a id="a0071d1fabf9969728cc8d97178200115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0071d1fabf9969728cc8d97178200115">&#9670;&nbsp;</a></span>photon_mom</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector KLOE::pm00::photon_mom[4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4-momenta of four photons </p>
+
+</div>
+</div>
+<a id="a25ad258b1d5bd47c74259a33e17bcdf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25ad258b1d5bd47c74259a33e17bcdf5">&#9670;&nbsp;</a></span>photon_pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector KLOE::pm00::photon_pos[4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4-positions of four photons </p>
+
+</div>
+</div>
+<a id="a7dbe89c7cc171d7b09a80fb57260525e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dbe89c7cc171d7b09a80fb57260525e">&#9670;&nbsp;</a></span>pi_ch_mom</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector KLOE::pm00::pi_ch_mom[2]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4-momenta of both charged \( \pi \) mesons </p>
+
+</div>
+</div>
+<a id="a9143aa66603c3d0d3e68b3475411876e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9143aa66603c3d0d3e68b3475411876e">&#9670;&nbsp;</a></span>pi_ch_pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector KLOE::pm00::pi_ch_pos[2]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4-positions of both charged \( \pi \) mesons </p>
+
+</div>
+</div>
+<a id="a6bc21a05d192b2af2f2aa8f1514ae88d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc21a05d192b2af2f2aa8f1514ae88d">&#9670;&nbsp;</a></span>pi_ne_mom</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector KLOE::pm00::pi_ne_mom[2]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4-momenta of both \( \pi^{0} \) mesons </p>
+
+</div>
+</div>
+<a id="abb11fa969d18992d45e0c424d8ac433d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb11fa969d18992d45e0c424d8ac433d">&#9670;&nbsp;</a></span>pi_ne_pos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector KLOE::pm00::pi_ne_pos[2]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4-positions of both \( \pi^{0} \) mesons </p>
+
+</div>
+</div>
+<a id="a0059affb42a04c6a5cfe88b0aecb087d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0059affb42a04c6a5cfe88b0aecb087d">&#9670;&nbsp;</a></span>transv</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Double_t KLOE::pm00::transv</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>polar angle of a vector (with respect to z-axis) </p>
+
+</div>
+</div>
+<a id="ab4c234953d2065078457560aa71c17f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4c234953d2065078457560aa71c17f8">&#9670;&nbsp;</a></span>x_max</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Double_t KLOE::pm00::x_max</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maximal value of histogram's x range </p>
+
+</div>
+</div>
+<a id="a50032618533b7408c16e4626776d71b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50032618533b7408c16e4626776d71b7">&#9670;&nbsp;</a></span>x_min</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Double_t KLOE::pm00::x_min</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>minimal value of histogram's x range </p>
+
+</div>
+</div>
+<a id="a8a6bef5be4c8423432a306b36c47313e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a6bef5be4c8423432a306b36c47313e">&#9670;&nbsp;</a></span>y_max</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Double_t KLOE::pm00::y_max</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maximal value of histogram's y range </p>
+
+</div>
+</div>
+<a id="a57b8d4d2bcd27ba8d662adfa08be2bdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57b8d4d2bcd27ba8d662adfa08be2bdb">&#9670;&nbsp;</a></span>y_min</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Double_t KLOE::pm00::y_min</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>minimal value of histogram's y range </p>
 
 </div>
 </div>
