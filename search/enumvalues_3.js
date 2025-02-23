@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['gen_5fvars',['GEN_VARS',['../namespaceControls.html#a32851256c2a9758479184da2ace391d9a69f60a06600445ebfcd35d8458908d0f',1,'Controls']]]
+  ['eff_5fsig_5fto_5fbcg',['EFF_SIG_TO_BCG',['../namespaceControls.html#a32851256c2a9758479184da2ace391d9a082e516fec737d2a7007010fb737dfb5',1,'Controls']]],
+  ['exit',['EXIT',['../namespaceControls.html#a32851256c2a9758479184da2ace391d9aa42b2fb0e720a080e79a92f4ca97d927',1,'Controls']]]
 ];

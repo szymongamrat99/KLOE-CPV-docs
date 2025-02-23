@@ -108,10 +108,10 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ErrorLogs</b> (const std::string &amp;logFilename)</td></tr>
 <tr class="separator:aab0e55b4c3874614ff766f1182de2e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b64bc84af8f00f99db45fccb354add"><td class="memItemLeft" align="right" valign="top"><a id="ac2b64bc84af8f00f99db45fccb354add"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>getErrLog</b> (ErrorCodes &amp;errCode, const std::string &amp;additionalInfo=&quot;&quot;)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>getErrLog</b> (<a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56">ErrorCodes</a> &amp;errCode, const std::string &amp;additionalInfo=&quot;&quot;)</td></tr>
 <tr class="separator:ac2b64bc84af8f00f99db45fccb354add"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3dbbbb5f8d190c80d3bdbbf75cc1198"><td class="memItemLeft" align="right" valign="top"><a id="af3dbbbb5f8d190c80d3bdbbf75cc1198"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>getLog</b> (InfoCodes &amp;infoCode, const std::string &amp;additionalInfo=&quot;&quot;)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>getLog</b> (<a class="el" href="namespaceErrorHandling.html#afba975499c4f34f645e96eba4ed1d31e">InfoCodes</a> &amp;infoCode, const std::string &amp;additionalInfo=&quot;&quot;)</td></tr>
 <tr class="separator:af3dbbbb5f8d190c80d3bdbbf75cc1198"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd933ea76fe46dd9f1d75f4c3a254dc9"><td class="memItemLeft" align="right" valign="top"><a id="abd933ea76fe46dd9f1d75f4c3a254dc9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>printErrStats</b> () const</td></tr>
@@ -119,10 +119,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>printErrStats</b> () 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:aaaecbb7f58a8dc2ef445a88dc6b5a0a4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classErrorHandling_1_1ErrorLogs.html#aaaecbb7f58a8dc2ef445a88dc6b5a0a4">_getErrorMessage</a> (ErrorCodes code) const</td></tr>
+<tr class="memitem:aaaecbb7f58a8dc2ef445a88dc6b5a0a4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classErrorHandling_1_1ErrorLogs.html#aaaecbb7f58a8dc2ef445a88dc6b5a0a4">_getErrorMessage</a> (<a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56">ErrorCodes</a> code) const</td></tr>
 <tr class="memdesc:aaaecbb7f58a8dc2ef445a88dc6b5a0a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">private method to get the error message with ErrorCodes parameter.  <a href="#aaaecbb7f58a8dc2ef445a88dc6b5a0a4">More...</a><br /></td></tr>
 <tr class="separator:aaaecbb7f58a8dc2ef445a88dc6b5a0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a888025e204bb598779f29551b47e7a31"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classErrorHandling_1_1ErrorLogs.html#a888025e204bb598779f29551b47e7a31">_getInfoMessage</a> (InfoCodes code) const</td></tr>
+<tr class="memitem:a888025e204bb598779f29551b47e7a31"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classErrorHandling_1_1ErrorLogs.html#a888025e204bb598779f29551b47e7a31">_getInfoMessage</a> (<a class="el" href="namespaceErrorHandling.html#afba975499c4f34f645e96eba4ed1d31e">InfoCodes</a> code) const</td></tr>
 <tr class="memdesc:a888025e204bb598779f29551b47e7a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">private method to get the info message with InfoCodes parameter.  <a href="#a888025e204bb598779f29551b47e7a31">More...</a><br /></td></tr>
 <tr class="separator:a888025e204bb598779f29551b47e7a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93fe4d29bcbcae850f6f98a526dadb58"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classErrorHandling_1_1ErrorLogs.html#a93fe4d29bcbcae850f6f98a526dadb58">_getTimestamp</a> ()</td></tr>
@@ -131,9 +131,9 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a981c558c0fac88f07c14b15fd56c7f04"><td class="memItemLeft" align="right" valign="top">std::map&lt; ErrorCodes, TString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classErrorHandling_1_1ErrorLogs.html#a981c558c0fac88f07c14b15fd56c7f04">Logs</a></td></tr>
+<tr class="memitem:a981c558c0fac88f07c14b15fd56c7f04"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56">ErrorCodes</a>, TString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classErrorHandling_1_1ErrorLogs.html#a981c558c0fac88f07c14b15fd56c7f04">Logs</a></td></tr>
 <tr class="separator:a981c558c0fac88f07c14b15fd56c7f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a52014fa7968685dfd47eef1ccef902"><td class="memItemLeft" align="right" valign="top">std::map&lt; ErrorCodes, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classErrorHandling_1_1ErrorLogs.html#a9a52014fa7968685dfd47eef1ccef902">_errCount</a></td></tr>
+<tr class="memitem:a9a52014fa7968685dfd47eef1ccef902"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56">ErrorCodes</a>, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classErrorHandling_1_1ErrorLogs.html#a9a52014fa7968685dfd47eef1ccef902">_errCount</a></td></tr>
 <tr class="separator:a9a52014fa7968685dfd47eef1ccef902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aade30aaccb6570a280af6dd7e4ac3e9d"><td class="memItemLeft" align="right" valign="top">std::ofstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classErrorHandling_1_1ErrorLogs.html#aade30aaccb6570a280af6dd7e4ac3e9d">_logFile</a></td></tr>
 <tr class="separator:aade30aaccb6570a280af6dd7e4ac3e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,7 +153,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">std::string ErrorHandling::ErrorLogs::_getErrorMessage </td>
           <td>(</td>
-          <td class="paramtype">ErrorCodes&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56">ErrorCodes</a>&#160;</td>
           <td class="paramname"><em>code</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -188,7 +188,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">std::string ErrorHandling::ErrorLogs::_getInfoMessage </td>
           <td>(</td>
-          <td class="paramtype">InfoCodes&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceErrorHandling.html#afba975499c4f34f645e96eba4ed1d31e">InfoCodes</a>&#160;</td>
           <td class="paramname"><em>code</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -250,7 +250,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;ErrorCodes, int&gt; ErrorHandling::ErrorLogs::_errCount</td>
+          <td class="memname">std::map&lt;<a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56">ErrorCodes</a>, int&gt; ErrorHandling::ErrorLogs::_errCount</td>
         </tr>
       </table>
   </td>
@@ -296,7 +296,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt;ErrorCodes, TString&gt; ErrorHandling::ErrorLogs::Logs</td>
+          <td class="memname">std::map&lt;<a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56">ErrorCodes</a>, TString&gt; ErrorHandling::ErrorLogs::Logs</td>
         </tr>
       </table>
   </td>
@@ -317,7 +317,7 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>ErrorHandling</b></li><li class="navelem"><a class="el" href="classErrorHandling_1_1ErrorLogs.html">ErrorLogs</a></li>
+    <li class="navelem"><a class="el" href="namespaceErrorHandling.html">ErrorHandling</a></li><li class="navelem"><a class="el" href="classErrorHandling_1_1ErrorLogs.html">ErrorLogs</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

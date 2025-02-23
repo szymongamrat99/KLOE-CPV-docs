@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['transf_5fto_5fcm',['TRANSF_TO_CM',['../namespaceControls.html#a32851256c2a9758479184da2ace391d9a43a81d2c431d909f5ed7f47ec3bdd2b4',1,'Controls']]],
-  ['triangle',['TRIANGLE',['../namespaceControls.html#a1bc109d5f295a61767efa4bff3bbe621a9bcd89070cae224dce305f5011659ef4',1,'Controls']]],
-  ['trilateration_5fkin_5ffit',['TRILATERATION_KIN_FIT',['../namespaceControls.html#a1bc109d5f295a61767efa4bff3bbe621a9b513788ad64a9eaffdf45f0311294eb',1,'Controls']]]
+  ['nan_5fval',['NAN_VAL',['../namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56a5de1dd2069ab168678ce771932a32d49',1,'ErrorHandling']]],
+  ['not_5frecognized',['NOT_RECOGNIZED',['../namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56ad5a38c33656e4170a9aae0000f70f381',1,'ErrorHandling']]],
+  ['num_5fcodes',['NUM_CODES',['../namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56aa56887e62c06a58ae5cdf0d80fd7bab3',1,'ErrorHandling::NUM_CODES()'],['../namespaceErrorHandling.html#afba975499c4f34f645e96eba4ed1d31eaa56887e62c06a58ae5cdf0d80fd7bab3',1,'ErrorHandling::NUM_CODES()']]]
 ];

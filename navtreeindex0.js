@@ -1,7 +1,6 @@
 var NAVTREEINDEX0 =
 {
 ".html":[1,0,0],
-".html":[1,0,2],
 ".html":[1,0,4],
 "ConstraintsOmega_8h_source.html":[2,0,0,0,0,6],
 "DoubleRatio_8h_source.html":[2,0,0,0,0,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "classKLOE_1_1interference.html#ad88f1bed5877ced8123af045c0fcfb1b":[1,0,3,4,6],
 "classKLOE_1_1interference.html#ad9287a93955425edb5cd23ea05208891":[1,0,3,4,26],
 "classKLOE_1_1interference.html#ad92f3fbf44389561a35ad2fb3978de2b":[1,0,3,4,29],
-"classKLOE_1_1interference.html#adc254db99d60ad1b0632528095009358":[1,0,3,4,30]
+"classKLOE_1_1interference.html#adc254db99d60ad1b0632528095009358":[1,0,3,4,30],
+"classKLOE_1_1interference.html#adddf85ff38ee4f94b8716ec338ecba4e":[1,0,3,4,15]
 };

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['neutrecmenu',['NeutRecMenu',['../namespaceControls.html#a1bc109d5f295a61767efa4bff3bbe621',1,'Controls']]]
+  ['kchrecmenu',['KchRecMenu',['../namespaceControls.html#a8f792a75b18304dc404df0071b6e7f2b',1,'Controls']]]
 ];

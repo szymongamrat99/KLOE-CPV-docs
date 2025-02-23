@@ -4,9 +4,7 @@ var annotated_dup =
       [ "RTI", "classAPI_1_1RTI.html", "classAPI_1_1RTI" ]
     ] ],
     [ "Controls", "namespaceControls.html", "namespaceControls" ],
-    [ "ErrorHandling", null, [
-      [ "ErrorLogs", "classErrorHandling_1_1ErrorLogs.html", "classErrorHandling_1_1ErrorLogs" ]
-    ] ],
+    [ "ErrorHandling", "namespaceErrorHandling.html", "namespaceErrorHandling" ],
     [ "KLOE", "namespaceKLOE.html", "namespaceKLOE" ],
     [ "LogsHandling", null, [
       [ "Logs", "classLogsHandling_1_1Logs.html", "classLogsHandling_1_1Logs" ]

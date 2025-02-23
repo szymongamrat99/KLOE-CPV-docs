@@ -172,6 +172,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>lorentz_transf</b> (T
 <tr class="memitem:a317804edfaa3db2c177dbc6897bdd301"><td class="memItemLeft" align="right" valign="top">Int_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a317804edfaa3db2c177dbc6897bdd301">ListOfFiles</a> (const std::string &amp;mode, Int_t &amp;maxNumOfFiles, std::vector&lt; std::string &gt; &amp;fileNames)</td></tr>
 <tr class="memdesc:a317804edfaa3db2c177dbc6897bdd301"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function to get the list of filenames described in the subfiles. Needs to be used only in special cases.  <a href="#a317804edfaa3db2c177dbc6897bdd301">More...</a><br /></td></tr>
 <tr class="separator:a317804edfaa3db2c177dbc6897bdd301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2773c999aca1c56ca1be15fd1360b4"><td class="memItemLeft" align="right" valign="top">Int_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#ace2773c999aca1c56ca1be15fd1360b4">neu_triangle</a> (Float_t *TrcSumFinal, Float_t *vtxSigmaFinal, Float_t Clu5Vec[4][5], Float_t *ip, Float_t *Phi4Mom, Float_t *Kne4Mom, Float_t *Kne4Vec, Float_t *trc)</td></tr>
+<tr class="memdesc:ace2773c999aca1c56ca1be15fd1360b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconstruction of neutral vertex using the triangle method.  <a href="#ace2773c999aca1c56ca1be15fd1360b4">More...</a><br /></td></tr>
+<tr class="separator:ace2773c999aca1c56ca1be15fd1360b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e154e68596531017cff09e2abdcb705"><td class="memItemLeft" align="right" valign="top">Int_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a4e154e68596531017cff09e2abdcb705">neu_triangle</a> (std::vector&lt; TLorentzVector &gt; *Clu4Mom, std::vector&lt; TLorentzVector &gt; *Clu4Vec, Float_t *ip, TLorentzVector *Phi4Mom, TLorentzVector *Kne4Mom, TLorentzVector *Kne4Vec, Float_t *trc, Float_t *TrcSumFinal, Float_t *vtxSigmaFinal)</td></tr>
+<tr class="memdesc:a4e154e68596531017cff09e2abdcb705"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function to get the list of filenames described in the subfiles. Needs to be used only in special cases.  <a href="#a4e154e68596531017cff09e2abdcb705">More...</a><br /></td></tr>
+<tr class="separator:a4e154e68596531017cff09e2abdcb705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0daa43ce36cddeec52ac2fd174b03c09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a0daa43ce36cddeec52ac2fd174b03c09">chainInit</a> (TChain &amp;chain_init, Controls::DataType &amp;dataTypeOpt, UInt_t &amp;firstData, UInt_t &amp;lastData, UInt_t &amp;firstMC, UInt_t &amp;lastMC, <a class="el" href="classErrorHandling_1_1ErrorLogs.html">ErrorHandling::ErrorLogs</a> &amp;logger)</td></tr>
+<tr class="separator:a0daa43ce36cddeec52ac2fd174b03c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a884c2f4ed05188a421c447ac06ddaa5f"><td class="memItemLeft" align="right" valign="top"><a id="a884c2f4ed05188a421c447ac06ddaa5f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>dataFlagSetter</b> (Controls::DataType &amp;dataType, bool &amp;dataFlag, int &amp;mcflag, int &amp;mctruth)</td></tr>
+<tr class="separator:a884c2f4ed05188a421c447ac06ddaa5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -329,6 +340,65 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the number, how many elements are the same. </dd></dl>
+
+</div>
+</div>
+<a id="a0daa43ce36cddeec52ac2fd174b03c09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0daa43ce36cddeec52ac2fd174b03c09">&#9670;&nbsp;</a></span>chainInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KLOE::pm00::chainInit </td>
+          <td>(</td>
+          <td class="paramtype">TChain &amp;&#160;</td>
+          <td class="paramname"><em>chain_init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Controls::DataType &amp;&#160;</td>
+          <td class="paramname"><em>dataTypeOpt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt_t &amp;&#160;</td>
+          <td class="paramname"><em>firstData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt_t &amp;&#160;</td>
+          <td class="paramname"><em>lastData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt_t &amp;&#160;</td>
+          <td class="paramname"><em>firstMC</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UInt_t &amp;&#160;</td>
+          <td class="paramname"><em>lastMC</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classErrorHandling_1_1ErrorLogs.html">ErrorHandling::ErrorLogs</a> &amp;&#160;</td>
+          <td class="paramname"><em>logger</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </p>
 
 </div>
 </div>
@@ -682,6 +752,178 @@ Private Attributes</h2></td></tr>
           <td></td>
           <td class="paramtype">std::vector&lt; std::string &gt; &amp;&#160;</td>
           <td class="paramname"><em>fileNames</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A function to get the list of filenames described in the subfiles. Needs to be used only in special cases. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mode</td><td>Mode of operation:<ul>
+<li>MC1: to get the list from all_phys</li>
+<li>MC2: to get the list from all_phys2</li>
+<li>MC3: to get the list from all_phys3</li>
+<li>Data: to get the list from data </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">maxNumOfFiles</td><td>number of files to fetch into the analysis </td></tr>
+    <tr><td class="paramname">fileNames</td><td>address to the vector of filenames to be used in the analysis </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The function returns:<ul>
+<li>0: no errors</li>
+<li>ErrorHandling:ErrorCodes::FILE_NOT_EXIST: input file does not exist </li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
+<a id="ace2773c999aca1c56ca1be15fd1360b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace2773c999aca1c56ca1be15fd1360b4">&#9670;&nbsp;</a></span>neu_triangle() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int_t KLOE::pm00::neu_triangle </td>
+          <td>(</td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>TrcSumFinal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>vtxSigmaFinal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t&#160;</td>
+          <td class="paramname"><em>Clu5Vec</em>[4][5], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>ip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>Phi4Mom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>Kne4Mom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>Kne4Vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>trc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reconstruction of neutral vertex using the triangle method. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">TrcSumFinal</td><td>pointer to variable to get the TrcSum after the method application <p class="formulaDsp">
+\[ TrcSumFinal = \sum^{4}_{i=1} (T_{cl,i} - \frac{d_{\gamma,i}}{c} - \frac{d_{K}}{c\beta_{K}}) \]
+</p>
+ </td></tr>
+    <tr><td class="paramname">vtxSigmaFinal</td><td>pointer to the variable to get the error of reconstructed vertex vtxSigmaFinal = {^{4}_{i=1} E_{cl,i} {(X_{neu,i} - X_{neu,avg})^2 + (Y_{neu,i} - Y_{neu,avg})^2 + (Z_{neu,i} - Z_{neu,avg})^2}}{^{4}_{i=1} E_{cl,i}} </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The function returns:<ul>
+<li>0: no errors</li>
+<li>ErrorCodes::FILE_NOT_EXIST: input file does not exist </li>
+</ul>
+</dd></dl>
+
+</div>
+</div>
+<a id="a4e154e68596531017cff09e2abdcb705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e154e68596531017cff09e2abdcb705">&#9670;&nbsp;</a></span>neu_triangle() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Int_t KLOE::pm00::neu_triangle </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; TLorentzVector &gt; *&#160;</td>
+          <td class="paramname"><em>Clu4Mom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; TLorentzVector &gt; *&#160;</td>
+          <td class="paramname"><em>Clu4Vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>ip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TLorentzVector *&#160;</td>
+          <td class="paramname"><em>Phi4Mom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TLorentzVector *&#160;</td>
+          <td class="paramname"><em>Kne4Mom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TLorentzVector *&#160;</td>
+          <td class="paramname"><em>Kne4Vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>trc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>TrcSumFinal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float_t *&#160;</td>
+          <td class="paramname"><em>vtxSigmaFinal</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

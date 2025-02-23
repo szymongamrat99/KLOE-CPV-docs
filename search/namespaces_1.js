@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kloe',['KLOE',['../namespaceKLOE.html',1,'']]]
+  ['errorhandling',['ErrorHandling',['../namespaceErrorHandling.html',1,'']]]
 ];
