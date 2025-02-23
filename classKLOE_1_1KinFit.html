@@ -100,8 +100,9 @@ Inheritance diagram for KLOE::KinFit:</div>
 <div class="center"><img src="classKLOE_1_1KinFit__inherit__graph.png" border="0" usemap="#KLOE_1_1KinFit_inherit__map" alt="Inheritance graph"/></div>
 <map name="KLOE_1_1KinFit_inherit__map" id="KLOE_1_1KinFit_inherit__map">
 <area shape="rect" id="node3" href="classKLOE_1_1ConstraintsOmega.html" title="Auxiliary class with the constraints for $omegapi^{0}$ fitting. " alt="" coords="5,155,180,181"/>
-<area shape="rect" id="node2" href="classKLOE_1_1pm00.html" title="KLOE::pm00" alt="" coords="44,5,141,32"/>
-<area shape="rect" id="node4" href="classKLOE_1_1KinFitter.html" title="KLOE::KinFitter" alt="" coords="35,229,150,256"/>
+<area shape="rect" id="node5" href="classKLOE_1_1ConstraintsTrilateration.html" title="Auxiliary class with the constraints for trilateration kinematic fit &#45; do not include charged part of..." alt="" coords="205,155,405,181"/>
+<area shape="rect" id="node2" href="classKLOE_1_1pm00.html" title="KLOE::pm00" alt="" coords="149,5,247,32"/>
+<area shape="rect" id="node4" href="classKLOE_1_1KinFitter.html" title="KLOE::KinFitter" alt="" coords="141,229,255,256"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -130,6 +131,12 @@ virtual Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>PyConsvLA
 <tr class="memitem:a95c0bf6983ecbfda336a4f25c5573b85"><td class="memItemLeft" align="right" valign="top"><a id="a95c0bf6983ecbfda336a4f25c5573b85"></a>
 virtual Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>PzConsvLAB</b> (Double_t *, Double_t *)=0</td></tr>
 <tr class="separator:a95c0bf6983ecbfda336a4f25c5573b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90ecc6d356665344a409b6651c129cff"><td class="memItemLeft" align="right" valign="top"><a id="a90ecc6d356665344a409b6651c129cff"></a>
+virtual Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>EnergyConsvCM</b> (Double_t *, Double_t *)=0</td></tr>
+<tr class="separator:a90ecc6d356665344a409b6651c129cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac39f29468f50b52890e717637f8ab2b7"><td class="memItemLeft" align="right" valign="top"><a id="ac39f29468f50b52890e717637f8ab2b7"></a>
+virtual Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>MinvConsv</b> (Double_t *, Double_t *)=0</td></tr>
+<tr class="separator:ac39f29468f50b52890e717637f8ab2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1243f4115043bd0ffecb02e0dec49b9b"><td class="memItemLeft" align="right" valign="top"><a id="a1243f4115043bd0ffecb02e0dec49b9b"></a>
 virtual Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>PhotonPathConsvLAB</b> (Double_t *, Double_t *) const =0</td></tr>
 <tr class="separator:a1243f4115043bd0ffecb02e0dec49b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,6 +152,18 @@ virtual Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>Photon3Pa
 <tr class="memitem:abf66c33609c0b556749ff9e96f29a8d2"><td class="memItemLeft" align="right" valign="top"><a id="abf66c33609c0b556749ff9e96f29a8d2"></a>
 virtual Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>Photon4PathConsvLAB</b> (Double_t *, Double_t *)=0</td></tr>
 <tr class="separator:abf66c33609c0b556749ff9e96f29a8d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa6f2931334aebb83d4b05bddffb8391"><td class="memItemLeft" align="right" valign="top"><a id="aaa6f2931334aebb83d4b05bddffb8391"></a>
+virtual Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>NeutralPathConsvLAB</b> (Double_t *, Double_t *)=0</td></tr>
+<tr class="separator:aaa6f2931334aebb83d4b05bddffb8391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6c92d8fe59cf75679a12f45b03efe7d"><td class="memItemLeft" align="right" valign="top"><a id="aa6c92d8fe59cf75679a12f45b03efe7d"></a>
+virtual Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>NeutralXPathConsvLAB</b> (Double_t *, Double_t *)=0</td></tr>
+<tr class="separator:aa6c92d8fe59cf75679a12f45b03efe7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6801c4423e9a42a65aad95c92e5c62e0"><td class="memItemLeft" align="right" valign="top"><a id="a6801c4423e9a42a65aad95c92e5c62e0"></a>
+virtual Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>NeutralYPathConsvLAB</b> (Double_t *, Double_t *)=0</td></tr>
+<tr class="separator:a6801c4423e9a42a65aad95c92e5c62e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b192da94337bd805990bb5f434dcf0c"><td class="memItemLeft" align="right" valign="top"><a id="a6b192da94337bd805990bb5f434dcf0c"></a>
+virtual Double_t&#160;</td><td class="memItemRight" valign="bottom"><b>NeutralZPathConsvLAB</b> (Double_t *, Double_t *)=0</td></tr>
+<tr class="separator:a6b192da94337bd805990bb5f434dcf0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -171,6 +190,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>boost_vector</b> (TLo
 <tr class="memitem:a7b44226de663af25f11993bea1f3aa45 inherit pro_methods_classKLOE_1_1pm00"><td class="memItemLeft" align="right" valign="top"><a id="a7b44226de663af25f11993bea1f3aa45"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>lorentz_transf</b> (TLorentzVector four_mom)</td></tr>
 <tr class="separator:a7b44226de663af25f11993bea1f3aa45 inherit pro_methods_classKLOE_1_1pm00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a212cea141e785d15f44796b22660268e inherit pro_methods_classKLOE_1_1pm00"><td class="memItemLeft" align="right" valign="top"><a id="a212cea141e785d15f44796b22660268e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>lorentz_transf</b> (Float_t *, Float_t *, Float_t *)</td></tr>
+<tr class="separator:a212cea141e785d15f44796b22660268e inherit pro_methods_classKLOE_1_1pm00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a104a170b2d44c875ebaa8e49f0be6a12 inherit pro_methods_classKLOE_1_1pm00"><td class="memItemLeft" align="right" valign="top"><a id="a104a170b2d44c875ebaa8e49f0be6a12"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>lorentz_transf</b> (Double_t *, Double_t *, Double_t *)</td></tr>
+<tr class="separator:a104a170b2d44c875ebaa8e49f0be6a12 inherit pro_methods_classKLOE_1_1pm00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac95b2567c5ac66c0d92955588b3a60a inherit pro_methods_classKLOE_1_1pm00"><td class="memItemLeft" align="right" valign="top">Int_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#aac95b2567c5ac66c0d92955588b3a60a">signum</a> (Float_t value)</td></tr>
 <tr class="memdesc:aac95b2567c5ac66c0d92955588b3a60a inherit pro_methods_classKLOE_1_1pm00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sign of a value.  <a href="classKLOE_1_1pm00.html#aac95b2567c5ac66c0d92955588b3a60a">More...</a><br /></td></tr>
 <tr class="separator:aac95b2567c5ac66c0d92955588b3a60a inherit pro_methods_classKLOE_1_1pm00"><td class="memSeparator" colspan="2">&#160;</td></tr>

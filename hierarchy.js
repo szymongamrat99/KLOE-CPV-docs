@@ -14,6 +14,9 @@ var hierarchy =
       [ "KLOE::KinFit", "classKLOE_1_1KinFit.html", [
         [ "KLOE::ConstraintsOmega", "classKLOE_1_1ConstraintsOmega.html", [
           [ "KLOE::KinFitter", "classKLOE_1_1KinFitter.html", null ]
+        ] ],
+        [ "KLOE::ConstraintsTrilateration", "classKLOE_1_1ConstraintsTrilateration.html", [
+          [ "KLOE::KinFitter", "classKLOE_1_1KinFitter.html", null ]
         ] ]
       ] ]
     ] ],

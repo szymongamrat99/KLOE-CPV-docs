@@ -20,6 +20,8 @@ var classKLOE_1_1pm00 =
     [ "inv_mass_calc", "classKLOE_1_1pm00.html#a3325595649f43c4f83810116237ea601", null ],
     [ "ListOfFiles", "classKLOE_1_1pm00.html#a317804edfaa3db2c177dbc6897bdd301", null ],
     [ "lorentz_transf", "classKLOE_1_1pm00.html#a7b44226de663af25f11993bea1f3aa45", null ],
+    [ "lorentz_transf", "classKLOE_1_1pm00.html#a212cea141e785d15f44796b22660268e", null ],
+    [ "lorentz_transf", "classKLOE_1_1pm00.html#a104a170b2d44c875ebaa8e49f0be6a12", null ],
     [ "neu_triangle", "classKLOE_1_1pm00.html#ace2773c999aca1c56ca1be15fd1360b4", null ],
     [ "neu_triangle", "classKLOE_1_1pm00.html#a4e154e68596531017cff09e2abdcb705", null ],
     [ "signum", "classKLOE_1_1pm00.html#aac95b2567c5ac66c0d92955588b3a60a", null ],

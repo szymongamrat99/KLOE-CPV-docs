@@ -1,9 +1,8 @@
 <map id="Scripts/Subanalysis/CPFit/inc/cpfit.hpp" name="Scripts/Subanalysis/CPFit/inc/cpfit.hpp">
-<area shape="rect" id="node6" href="$ErrorLogs_8h_source.html" title="ErrorLogs.h" alt="" coords="330,244,419,271"/>
-<area shape="rect" id="node10" href="$Logs_8h_source.html" title="Logs.h" alt="" coords="76,244,137,271"/>
-<area shape="rect" id="node12" href="$MainMenu_8h_source.html" title="MainMenu.h" alt="" coords="161,244,255,271"/>
-<area shape="rect" id="node13" href="$kloe__class_8h_source.html" title="kloe_class.h" alt="" coords="865,169,959,196"/>
-<area shape="rect" id="node22" href="$interference_8h_source.html" title="interference.h" alt="" coords="948,95,1049,121"/>
-<area shape="rect" id="node28" href="$lorentz__transf_8h_source.html" title="lorentz_transf.h" alt="" coords="1036,169,1148,196"/>
-<area shape="rect" id="node21" href="$neutral__mom_8h_source.html" title="neutral_mom.h" alt="" coords="999,244,1107,271"/>
+<area shape="rect" id="node6" href="$ErrorLogs_8h_source.html" title="ErrorLogs.h" alt="" coords="310,244,399,271"/>
+<area shape="rect" id="node10" href="$Logs_8h_source.html" title="Logs.h" alt="" coords="173,244,235,271"/>
+<area shape="rect" id="node12" href="$MainMenu_8h_source.html" title="MainMenu.h" alt="" coords="56,244,149,271"/>
+<area shape="rect" id="node13" href="$kloe__class_8h_source.html" title="kloe_class.h" alt="" coords="967,169,1062,196"/>
+<area shape="rect" id="node22" href="$interference_8h_source.html" title="interference.h" alt="" coords="1147,95,1248,121"/>
+<area shape="rect" id="node21" href="$neutral__mom_8h_source.html" title="neutral_mom.h" alt="" coords="1238,244,1346,271"/>
 </map>
