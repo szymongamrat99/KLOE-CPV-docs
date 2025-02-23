@@ -176,7 +176,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>lorentz_transf</b> (T
 <tr class="memdesc:ace2773c999aca1c56ca1be15fd1360b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconstruction of neutral vertex using the triangle method.  <a href="#ace2773c999aca1c56ca1be15fd1360b4">More...</a><br /></td></tr>
 <tr class="separator:ace2773c999aca1c56ca1be15fd1360b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e154e68596531017cff09e2abdcb705"><td class="memItemLeft" align="right" valign="top">Int_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a4e154e68596531017cff09e2abdcb705">neu_triangle</a> (std::vector&lt; TLorentzVector &gt; *Clu4Mom, std::vector&lt; TLorentzVector &gt; *Clu4Vec, Float_t *ip, TLorentzVector *Phi4Mom, TLorentzVector *Kne4Mom, TLorentzVector *Kne4Vec, Float_t *trc, Float_t *TrcSumFinal, Float_t *vtxSigmaFinal)</td></tr>
-<tr class="memdesc:a4e154e68596531017cff09e2abdcb705"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function to get the list of filenames described in the subfiles. Needs to be used only in special cases.  <a href="#a4e154e68596531017cff09e2abdcb705">More...</a><br /></td></tr>
+<tr class="memdesc:a4e154e68596531017cff09e2abdcb705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconstruction of neutral vertex using the triangle method.  <a href="#a4e154e68596531017cff09e2abdcb705">More...</a><br /></td></tr>
 <tr class="separator:a4e154e68596531017cff09e2abdcb705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0daa43ce36cddeec52ac2fd174b03c09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a0daa43ce36cddeec52ac2fd174b03c09">chainInit</a> (TChain &amp;chain_init, Controls::DataType &amp;dataTypeOpt, UInt_t &amp;firstData, UInt_t &amp;lastData, UInt_t &amp;firstMC, UInt_t &amp;lastMC, <a class="el" href="classErrorHandling_1_1ErrorLogs.html">ErrorHandling::ErrorLogs</a> &amp;logger)</td></tr>
 <tr class="separator:a0daa43ce36cddeec52ac2fd174b03c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -778,7 +778,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The function returns:<ul>
 <li>0: no errors</li>
-<li>#ErrorHandling::ErrorCodes::FILE_NOT_EXIST: input file does not exist </li>
+<li><a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56a08fdcaf66e5e5cbfe01d5eb344686b63">ErrorHandling::ErrorCodes::FILE_NOT_EXIST</a> </li>
 </ul>
 </dd></dl>
 
@@ -849,16 +849,29 @@ Private Attributes</h2></td></tr>
 <p>Reconstruction of neutral vertex using the triangle method. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">TrcSumFinal</td><td>pointer to variable to get the TrcSum after the method application <p class="formulaDsp">
-\[ TrcSumFinal = \sum^{4}_{i=1} (T_{cl,i} - \frac{d_{\gamma,i}}{c} - \frac{d_{K}}{c\beta_{K}}) \]
-</p>
- </td></tr>
+    <tr><td class="paramname">TrcSumFinal</td><td>pointer to variable to get the TrcSum after the method application $$^{4}_{i=1} (T_{cl,i} - {d_{,i}}{c} - {d_{K}}{c{K}})$$ </td></tr>
+    <tr><td class="paramname">vtxSigmaFinal</td><td>pointer variable to get the average error of the neutral vertex reconstruction (over clusters' energies) $${^{4}_{i=1}E_{cl,i}{(X_{neu,i} - X_{neu,avg})^2 + (Y_{neu,i} - Y_{neu,avg})^2 + (Z_{neu,i} - Z_{neu,avg})^2}}{^{4}_{i=1}E_{cl,i}}$$ </td></tr>
+    <tr><td class="paramname">Clu5Vec</td><td>matrix of clusters' variables:<ul>
+<li>first index: choice of cluster</li>
+<li>second index:<ul>
+<li>0-3: ($X_{cl} [cm], Y_{cl} [cm], Z_{cl} [cm], T_{cl} [ns]$)</li>
+<li>4: $E_{cl} [MeV]$ </li>
+</ul>
+</li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">ip</td><td>pointer to the array of interaction point's spatial coordinates: ($X_{IP}, Y_{IP}, Z_{IP}$) </td></tr>
+    <tr><td class="paramname">Phi4Mom</td><td>pointer to the array of $$ meson's 4-momentum: ($p_{x}, p_{y}, p_{z}, {s}$) </td></tr>
+    <tr><td class="paramname">Kne4Mom</td><td>pointer to the array of kaon's 4-momentum: ($p_{x}, p_{y}, p_{z}, E_{K}$) </td></tr>
+    <tr><td class="paramname">Kne4Vec</td><td>pointer to the array of kaon's 4-position: ($x_{neu,avg}, y_{neu,avg}, z_{neu,avg}, t_{K}$) </td></tr>
+    <tr><td class="paramname">trc</td><td>pointer to the array of $$(T_{cl,i} - {d_{,i}}{c} - {d_{K}}{c{K}})$$ for each cluster </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The function returns:<ul>
 <li>0: no errors</li>
-<li><a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56a08fdcaf66e5e5cbfe01d5eb344686b63">ErrorHandling::ErrorCodes::FILE_NOT_EXIST</a>: input file does not exist </li>
+<li><a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56a09f1d3e9028b43a0c61838cc844ff605">ErrorHandling::ErrorCodes::DELTA_LT_ZERO</a></li>
+<li><a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56adc75c40cf1a7f1a40f7a46933afe5d54">ErrorHandling::ErrorCodes::DENOM_EQ_ZERO</a> </li>
 </ul>
 </dd></dl>
 
@@ -932,24 +945,33 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>A function to get the list of filenames described in the subfiles. Needs to be used only in special cases. </p>
+<p>Reconstruction of neutral vertex using the triangle method. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">mode</td><td>Mode of operation:<ul>
-<li>MC1: to get the list from all_phys</li>
-<li>MC2: to get the list from all_phys2</li>
-<li>MC3: to get the list from all_phys3</li>
-<li>Data: to get the list from data </li>
+    <tr><td class="paramname">TrcSumFinal</td><td>pointer to variable to get the TrcSum after the method application $$^{4}_{i=1} (T_{cl,i} - {d_{,i}}{c} - {d_{K}}{c{K}})$$ </td></tr>
+    <tr><td class="paramname">vtxSigmaFinal</td><td>pointer variable to get the average error of the neutral vertex reconstruction (over clusters' energies) $${^{4}_{i=1}E_{cl,i}{(X_{neu,i} - X_{neu,avg})^2 + (Y_{neu,i} - Y_{neu,avg})^2 + (Z_{neu,i} - Z_{neu,avg})^2}}{^{4}_{i=1}E_{cl,i}}$$ </td></tr>
+    <tr><td class="paramname">Clu4Mom</td><td>std::vector of TLorentzVector objects for 4-momentum:<ul>
+<li>first index: choice of cluster</li>
+<li>vectors' content: ($p_{x,cl} [MeV/c], p_{y,cl} [MeV/c], p_{z,cl} [Mev/c], E_{cl} [MeV]$) </li>
 </ul>
 </td></tr>
-    <tr><td class="paramname">maxNumOfFiles</td><td>number of files to fetch into the analysis </td></tr>
-    <tr><td class="paramname">fileNames</td><td>address to the vector of filenames to be used in the analysis </td></tr>
+    <tr><td class="paramname">Clu4Vec</td><td>std::vector of TLorentzVector objects for 4-position:<ul>
+<li>first index: choice of cluster</li>
+<li>vectors' content: ($X_{cl} [cm], Y_{cl} [cm], Z_{cl} [cm], T_{cl} [ns]$) </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">ip</td><td>pointer to the array of interaction point's spatial coordinates: ($X_{IP}, Y_{IP}, Z_{IP}$) </td></tr>
+    <tr><td class="paramname">Phi4Mom</td><td>pointer to the array of $$ meson's 4-momentum: ($p_{x}, p_{y}, p_{z}, {s}$) </td></tr>
+    <tr><td class="paramname">Kne4Mom</td><td>pointer to the array of kaon's 4-momentum: ($p_{x}, p_{y}, p_{z}, E_{K}$) </td></tr>
+    <tr><td class="paramname">Kne4Vec</td><td>pointer to the array of kaon's 4-position: ($x_{neu,avg}, y_{neu,avg}, z_{neu,avg}, t_{K}$) </td></tr>
+    <tr><td class="paramname">trc</td><td>pointer to the array of $$(T_{cl,i} - {d_{,i}}{c} - {d_{K}}{c{K}})$$ for each cluster </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The function returns:<ul>
 <li>0: no errors</li>
-<li>ErrorHandling::ErrorCodes::FILE_NOT_EXIST: input file does not exist </li>
+<li><a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56a09f1d3e9028b43a0c61838cc844ff605">ErrorHandling::ErrorCodes::DELTA_LT_ZERO</a></li>
+<li><a class="el" href="namespaceErrorHandling.html#a0a2da526903ea1111c2115f80f85ab56adc75c40cf1a7f1a40f7a46933afe5d54">ErrorHandling::ErrorCodes::DENOM_EQ_ZERO</a> </li>
 </ul>
 </dd></dl>
 
