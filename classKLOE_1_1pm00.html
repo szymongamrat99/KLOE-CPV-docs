@@ -179,9 +179,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>lorentz_transf</b> (T
 <tr class="memdesc:a4e154e68596531017cff09e2abdcb705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reconstruction of neutral vertex using the triangle method.  <a href="#a4e154e68596531017cff09e2abdcb705">More...</a><br /></td></tr>
 <tr class="separator:a4e154e68596531017cff09e2abdcb705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0daa43ce36cddeec52ac2fd174b03c09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a0daa43ce36cddeec52ac2fd174b03c09">chainInit</a> (TChain &amp;chain_init, Controls::DataType &amp;dataTypeOpt, UInt_t &amp;firstData, UInt_t &amp;lastData, UInt_t &amp;firstMC, UInt_t &amp;lastMC, <a class="el" href="classErrorHandling_1_1ErrorLogs.html">ErrorHandling::ErrorLogs</a> &amp;logger)</td></tr>
+<tr class="memdesc:a0daa43ce36cddeec52ac2fd174b03c09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to initialize a TChain with the list of files. Defined per branch, which files (Prod2ntu, Prod2root, Old analysis) are to be taken into account.  <a href="#a0daa43ce36cddeec52ac2fd174b03c09">More...</a><br /></td></tr>
 <tr class="separator:a0daa43ce36cddeec52ac2fd174b03c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a884c2f4ed05188a421c447ac06ddaa5f"><td class="memItemLeft" align="right" valign="top"><a id="a884c2f4ed05188a421c447ac06ddaa5f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>dataFlagSetter</b> (Controls::DataType &amp;dataType, bool &amp;dataFlag, int &amp;mcflag, int &amp;mctruth)</td></tr>
+<tr class="memitem:a884c2f4ed05188a421c447ac06ddaa5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classKLOE_1_1pm00.html#a884c2f4ed05188a421c447ac06ddaa5f">dataFlagSetter</a> (Controls::DataType &amp;dataType, bool &amp;dataFlag, int &amp;mcflag, int &amp;mctruth)</td></tr>
+<tr class="memdesc:a884c2f4ed05188a421c447ac06ddaa5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method to set the data type, which will be used during the analysis.  <a href="#a884c2f4ed05188a421c447ac06ddaa5f">More...</a><br /></td></tr>
 <tr class="separator:a884c2f4ed05188a421c447ac06ddaa5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -398,7 +399,20 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </p>
+
+<p>Method to initialize a TChain with the list of files. Defined per branch, which files (Prod2ntu, Prod2root, Old analysis) are to be taken into account. </p>
+<p>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chain_init</td><td>address to the externally initialized TChain object </td></tr>
+    <tr><td class="paramname">dataTypeOpt</td><td>address to the variable, which stores Controls::DataType value </td></tr>
+    <tr><td class="paramname">firstData</td><td>first data file index </td></tr>
+    <tr><td class="paramname">lastData</td><td>last data file index </td></tr>
+    <tr><td class="paramname">firstMC</td><td>first MC file index </td></tr>
+    <tr><td class="paramname">lastMC</td><td>last MC file index </td></tr>
+    <tr><td class="paramname">logger</td><td>address to the <a class="el" href="classErrorHandling_1_1ErrorLogs.html" title="Class for info and error logs output - both to screen and log files. ">ErrorHandling::ErrorLogs</a> object to log the errors / infos during analysis operation </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -588,6 +602,72 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The map&lt;Int_t, Int_t&gt; how many times each element is repeated. </dd></dl>
+
+</div>
+</div>
+<a id="a884c2f4ed05188a421c447ac06ddaa5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a884c2f4ed05188a421c447ac06ddaa5f">&#9670;&nbsp;</a></span>dataFlagSetter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KLOE::pm00::dataFlagSetter </td>
+          <td>(</td>
+          <td class="paramtype">Controls::DataType &amp;&#160;</td>
+          <td class="paramname"><em>dataType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>dataFlag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>mcflag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>mctruth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Method to set the data type, which will be used during the analysis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataType</td><td>address to the variable, which stores Controls::DataType value </td></tr>
+    <tr><td class="paramname">dataFlag</td><td>address to variable where result will be stored </td></tr>
+    <tr><td class="paramname">mcflag</td><td>the flag, if an event comes from MC simulation:<ul>
+<li>0: data event</li>
+<li>1: MC event </li>
+</ul>
+</td></tr>
+    <tr><td class="paramname">mctruth</td><td>the indicator of a decay channel:<ul>
+<li>0: f$ K_{S}K_{L} ^{+}^{-}^{0}^{0} f$ with error</li>
+<li>1: f$ K_{S}K_{L} ^{+}^{-}^{0}^{0} f$ after cuts</li>
+<li>2: f$ K_{S}K_{L} ^{+}^{-}^{0}^{0} f$ rejected by cuts</li>
+<li>3: regeneration</li>
+<li>4: f$ ^{0}^{+}^{-}^{0}^{0} f$</li>
+<li>5: f$ K_{S}K_{L} ^{+}^{-}3^{0} f$</li>
+<li>6: f$ K_{S}K_{L} ^{0} ^{}l^{} f$</li>
+<li>7: Other background</li>
+<li>8: f$ K_{S}K_{L} ^{+}^{-}^{+}^{-} f$ </li>
+</ul>
+</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
