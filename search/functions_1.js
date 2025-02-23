@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bin_5fextraction',['bin_extraction',['../classKLOE_1_1interference.html#aedd12287a03bb0b41426249c5714ea44',1,'KLOE::interference']]]
+  ['arrayequality',['ArrayEquality',['../classKLOE_1_1pm00.html#a787d7958f0bde00829036cad08ba0770',1,'KLOE::pm00']]]
 ];
