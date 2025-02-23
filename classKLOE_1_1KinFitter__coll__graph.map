@@ -1,5 +1,5 @@
 <map id="KLOE::KinFitter" name="KLOE::KinFitter">
-<area shape="rect" id="node2" href="$classKLOE_1_1ConstraintsOmega.html" title="Auxiliary class with the constraints for ( &#160;^{0} ) fitting. " alt="" coords="123,157,298,184"/>
+<area shape="rect" id="node2" href="$classKLOE_1_1ConstraintsOmega.html" title="Auxiliary class with the constraints for $^{0}$ fitting. " alt="" coords="123,157,298,184"/>
 <area shape="rect" id="node3" href="$classKLOE_1_1KinFit.html" title="KLOE::KinFit" alt="" coords="5,81,104,108"/>
 <area shape="rect" id="node4" href="$classKLOE_1_1pm00.html" title="KLOE::pm00" alt="" coords="6,5,103,32"/>
 <area shape="rect" id="node5" href="$classErrorHandling_1_1ErrorLogs.html" title="Class for info and error logs output &#45; both to screen and log files. " alt="" coords="323,157,488,184"/>
