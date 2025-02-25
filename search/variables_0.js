@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['_5fchosen4momcomponent',['_chosen4MomComponent',['../classKLOE_1_1ConstraintsOmega.html#ab43f17bfbb1e90744aea2342a8e6a89f',1,'KLOE::ConstraintsOmega']]],
+  ['_5fchosenphoton',['_chosenPhoton',['../classKLOE_1_1ConstraintsOmega.html#add7f22c6fe777054261023f8c224d78a',1,'KLOE::ConstraintsOmega']]],
   ['_5fdatalistpath',['_DatalistPath',['../classKLOE_1_1pm00.html#a985ae89191a0c8a9816b9b16a1e0fbdc',1,'KLOE::pm00']]],
   ['_5fend_5ftime',['_end_time',['../classKLOE_1_1pm00.html#a8d6fdc9a44e0f25f55edf8592cbf92a9',1,'KLOE::pm00']]],
   ['_5ferrcount',['_errCount',['../classErrorHandling_1_1ErrorLogs.html#a9a52014fa7968685dfd47eef1ccef902',1,'ErrorHandling::ErrorLogs']]],
